@@ -1,0 +1,4 @@
+lp25-backup
+*.o
+.vscode/
+build/
