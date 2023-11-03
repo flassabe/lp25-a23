@@ -1,4 +1,6 @@
-lp25-backup
-*.o
-.vscode/
 build/
+build/*
+.vscode/
+.vscode/*
+*.o
+lp25-backup
