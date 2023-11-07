@@ -1,5 +1,9 @@
 Sujet en version du 19 octobre 2023
 
+Fichiers en version du 3 novembre.
+
+**ATTENTION !** Le template du code est stable (il pourra y avoir qql modifications à la marge), les instructions du README ne sont pas encore mises à jour, ne vous lancez pas dans le développement sans attendre.
+
 # Description succincte
 
 Le projet a pour but d'écrire un programme qui va analyser deux dossiers et les synchroniser dans une direction.
