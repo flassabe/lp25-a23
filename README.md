@@ -22,7 +22,7 @@ Pour permettre une analyse rapide, les traitements seront parallélisés. Il y a
 
 # Fonctionnement global
 
-Lors de sont lancement, le programme reçoit deux paramètres (plus d'éventuelles des options) qui sont le dossier source et le dossier de destination (dans cet ordre, le premier paramètre est la source, le second est la destination). Une liste de l'arborescence est construite (avec ses propriétés) pour chacun des deux dossiers. Il sera important dans l'étape du parcours récursif de ne pas traiter les éléments suivants :
+Lors de son lancement, le programme reçoit deux paramètres (plus d'éventuelles des options) qui sont le dossier source et le dossier de destination (dans cet ordre, le premier paramètre est la source, le second est la destination). Une liste de l'arborescence est construite (avec ses propriétés) pour chacun des deux dossiers. Il sera important dans l'étape du parcours récursif de ne pas traiter les éléments suivants :
 
 - `.` et `..` qui mèneraient le programme à tourner indéfiniment en traitant toujours le même dossier;
 - les fichiers autres que les dossiers ou les fichiers réguliers (devices, fifo, sockets, liens symboliques seront ignorés)
