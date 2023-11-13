@@ -219,11 +219,13 @@ L'évaluation porte sur 3 éléments :
 		- vous ferez une brève conclusion (1 minute)
 	- vous répondrez ensuite à des questions posées par les enseignants pendant une dizaine de minutes.
 - Le code
+	- fourni dans un dépôt git avec l'historique des contributions de tous les membres,
+	- avec un Makefile qui permet la compilation simplement avec la commande `make`
 	- capacité à effectuer les traitements demandés dans le sujet,
 	- capacité à traiter les cas particuliers sujets à erreur (pointeurs NULL, etc.)
 	- Respect des conventions d'écriture de code
 	- Documentation du code
-		- Avec des commentaires au format doxygen en entêtes de fonction
+		- Avec des commentaires au format doxygen en entêtes de fonction (si nécessaire)
 		- Des commentaires pertinents sur le flux d'une fonction (astuces, cas limites, détails de l'algorithme, etc.)
 	- Absence ou faible quantité de fuites mémoire (vérifiables avec `valgrind`)
 	- **ATTENTION !** le code doit compiler sous Linux ! Un code non compatible avec un système Linux sera pénalisé de 5 points sur 20.
