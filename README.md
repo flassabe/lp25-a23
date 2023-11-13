@@ -14,11 +14,11 @@ Pour permettre une analyse rapide, les traitements seront parallélisés. Il y a
 
 # Options du programme
 
---date-size-only : ne pas faire la comparaison des empreintes MD5, se limiter à comparer les dates et les tailles.
--n \<nombre> : nombre de processus analyseur **par côté** (il y en aura donc 2 fois ce nombre en parallèle)
---no-parallel : exécuter tout le programme dans un seul processus
--v pour verbose (affichage des listes et des opérations)
---dry-run pour exécution de test (juste lister les opérations à faire, ne pas faire les copies réellement)
+- --date-size-only : ne pas faire la comparaison des empreintes MD5, se limiter à comparer les dates et les tailles.
+- -n \<nombre> : nombre de processus analyseur **par côté** (il y en aura donc 2 fois ce nombre en parallèle)
+- --no-parallel : exécuter tout le programme dans un seul processus
+- -v pour verbose (affichage des listes et des opérations)
+- --dry-run pour exécution de test (juste lister les opérations à faire, ne pas faire les copies réellement)
 
 # Fonctionnement global
 
