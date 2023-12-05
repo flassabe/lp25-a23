@@ -9,6 +9,8 @@ typedef struct {
     uint8_t processes_count;
     bool is_parallel;
     bool uses_md5;
+		bool is_verbose;
+		bool is_dry_run;
 } configuration_t;
 
 void init_configuration(configuration_t *the_config);

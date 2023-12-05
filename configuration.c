@@ -18,6 +18,8 @@ void display_help(char *my_name) {
     printf("         \t-h display help (this text)\n");
     printf("         \t--date_size_only disables MD5 calculation for files\n");
     printf("         \t--no-parallel disables parallel computing (cancels values of option -n)\n");
+    printf("         \t--dry-run lists the changes that would need to be synchronized but doesn't perform them\n");
+    printf("         \t-v enables verbose mode\n");
 }
 
 /*!
